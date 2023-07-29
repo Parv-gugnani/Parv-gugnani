@@ -7,7 +7,7 @@
 
 ---
 
-- Languages - **JavaScript & HTML,CSS , CPP , C**
+- Languages - **JavaScript & HTML, CSS, CPP, C**
 - Libraries/Frameworks: - **React, NodeJS**
 - Graphic Desgining: - **Premier Pro, Ae , Ps , AI**
 - Game Development: - **Unreal engine Pro, Blender**
@@ -18,4 +18,4 @@
 
 <img align="left" alt="Premier Pro" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/50px-Adobe_Premiere_Pro_CC_icon.svg.png" />
 
-  <img align="left" alt="C Programming" width="30px" src="https://example.com/c_programming_icon.png" />
+<img align="left" alt="HTML" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/8/80/HTML5_logo_resized.png" />
