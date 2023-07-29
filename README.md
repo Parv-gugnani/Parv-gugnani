@@ -18,5 +18,5 @@
 
 <img align="left" alt="Premier Pro" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/50px-Adobe_Premiere_Pro_CC_icon.svg.png" />
 
-<img align="left" alt="Unreal Engine" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/UE_Logo_Black_Centered.svg" />
+<img align="left" alt="Unreal Engine" width="30px" src="https://example.com/unreal_engine_logo.png" />
 
