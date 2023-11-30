@@ -8,7 +8,7 @@
 ---
 
 - Languages - **JavaScript & HTML, CSS, CPP, C**
-- Libraries/Frameworks: - **React, NodeJS**
+- Libraries/Frameworks: - **React, NodeJS , NextJs**
 - Graphic Desgining: - **Premier Pro, Ae , Ps , AI**
 - Game Development: - **Unreal engine Pro, Blender**
 
