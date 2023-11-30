@@ -16,5 +16,6 @@
 
 <img align="left" alt="React" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" />
 
-<img align="left" alt="Premier Pro" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/50px-Adobe_Premiere_Pro_CC_icon.svg.png" />
+<img align="left" alt="Node.js" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" />
+
 
