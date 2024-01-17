@@ -3,7 +3,11 @@
 
 <p align="left"> <img src="https://avatars.githubusercontent.com/u/91847055?v=4" alt="parv-gugnani" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=parv-gugnani" alt="parv-gugnani" /></a> </p>
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=parv-gugnani" alt="parv-gugnani" width="400" height="200" />
+  </a>
+</p>
 
 - 🌱 I’m currently learning **Next Js, Node Js**
 
