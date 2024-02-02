@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=parv-gugnani&label=Profile%20views&color=0e75b6&style=flat" alt="parv-gugnani" /> </p>
 
-- 🌱 I’m currently learning **Next Js, Node Js**
+- 🌱 I’m currently working on Full Stack apps with **Next Js, Node Js**
 
 - 👯 I’m looking to collaborate on **Full Stack Apps**
 
