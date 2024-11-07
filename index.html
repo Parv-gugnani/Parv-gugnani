@@ -1,240 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="./P logo gemini.png" type="image/png" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Parv Gugnani</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="5; url=https://parv-gugnani.vercel.app/">
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+        }
+        .container {
+            text-align: center;
+            background: #222831;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            max-width: 450px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #ffd369;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #e0e0e0;
+            margin-bottom: 20px;
+        }
+        .loading-bar {
+            width: 100%;
+            height: 10px;
+            background-color: #333;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 20px;
+            position: relative;
+        }
+        .loading-bar::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #0070f3;
+            transform: scaleX(0);
+            transform-origin: left;
+            animation: loading 5s linear forwards;
+        }
+        @keyframes loading {
+            0% { transform: scaleX(0); }
+            100% { transform: scaleX(1); }
+        }
+        .button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #0070f3;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
     <div class="container">
-      <h1>👋 Hey, I'm Parv</h1>
-
-      <section>
-        <h2>Let's Connect!</h2>
-        <ul class="social-links">
-          <li>
-            GitHub:
-            <a href="https://github.com/Parv-gugnani" target="_blank">
-              Parv-gugnani
-            </a>
-          </li>
-          <li>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/parv-gugnani/" target="_blank">
-              Parv Gugnani
-            </a>
-          </li>
-          <li>
-            Twitter:
-            <a href="https://twitter.com/Parv_developer" target="_blank">
-              Parv_developer
-            </a>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>🙋🏽‍♂️ About Me</h2>
-        <p>
-          I'm an aspiring full-stack developer with a passion for Next.js and
-          backend technologies. I love building cool projects and experimenting
-          with new tech stacks 🚀.
-        </p>
-      </section>
-
-      <section>
-        <h2>🗻 Journey and Work</h2>
-        <h3>A Little About Me:</h3>
-        <ul>
-          <li>
-            Aspiring Role: Full Stack Developer, seeking opportunities to
-            contribute to exciting projects and grow as a developer.
-          </li>
-        </ul>
-        <h3>Past Experience:</h3>
-        <ul>
-          <li>
-            Game Development Intern at MillionNeuron, where I collaborated with
-            the development team to create an educational game using Blueprints
-            and C++.
-          </li>
-          <li>
-            VFX / Graphic Design Intern at Intellichains and Digital Fruition,
-            producing engaging game trailers, designing professional marketing
-            materials, and creating visually compelling social media content.
-          </li>
-        </ul>
-        <h3>Volunteer Work:</h3>
-        <ul>
-          <li>
-            Contributed as a Volunteer Graphic Designer at Nirmal Sanstha,
-            designing informative posters for the NGO's social media handles to
-            raise awareness about their initiatives and activities.
-          </li>
-        </ul>
-      </section>
-
-      <!-- projects -->
-      <section>
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <strong>
-              <a
-                href="https://github.com/Parv-gugnani/Food-delivery-backend"
-                target="_blank"
-              >
-                Zomato Backend Clone:
-              </a>
-            </strong>
-            Architected and developed a scalable backend infrastructure using
-            Node.js, Express, and MongoDB, implementing RESTful API endpoints
-            and secure user authentication.
-          </li>
-          <li>
-            <strong>
-              <a href="https://notewave-two.vercel.app/" target="_blank">
-                Notion Clone - Next.js:
-              </a>
-            </strong>
-            Developed a full-featured Notion clone using Next.js, MySQL, and
-            Prisma ORM, delivering a responsive and intuitive user interface
-            with shadcn UI components.
-          </li>
-          <li>
-            <strong>
-              <a
-                href="https://github.com/Parv-gugnani/twitch-Clone"
-                target="_blank"
-              >
-                Twitch Clone - Next.js:
-              </a>
-            </strong>
-            Developed a feature-rich Twitch clone using Next.js, MySQL, and
-            Prisma ORM, replicating core functionalities such as live streaming,
-            user chat, and real-time viewer engagement.
-          </li>
-          <li>
-            <strong>
-              <a href="https://finpro-using.vercel.app/" target="_blank">
-                Finance Management SaaS - Next.js/PostgreSQL:
-              </a>
-            </strong>
-            Created a comprehensive finance management tool (Finpro) using
-            Next.js, Prisma ORM, and PostgreSQL, providing users with a secure
-            and intuitive platform to track and manage their financial
-            transactions.
-          </li>
-          <li>
-            <strong>
-              <a
-                href="https://github.com/Parv-gugnani/twitch-Clone"
-                target="_blank"
-              >
-                Real-Time Chat Application - WebSockets/Node.js:
-              </a>
-            </strong>
-            Built a scalable and efficient real-time chat application using
-            Node.js, Express, and Socket.IO, supporting multiple concurrent
-            users and high-volume message exchanges.
-          </li>
-        </ul>
-      </section>
-
-      <!-- skills -->
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>
-            <strong>Languages & Frameworks:</strong> Next.js, Node.js,
-            JavaScript, TypeScript, React.js, Prisma
-          </li>
-          <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
-          <li>
-            <strong>Tools & Technologies:</strong> Git, Express, Socket.IO,
-            WebRTC, HLS
-          </li>
-          <li>
-            <strong>Design:</strong> Adobe Creative Suite (Premiere Pro, After
-            Effects, Illustrator, Photoshop)
-          </li>
-          <li>
-            <strong>Miscellaneous:</strong> Problem Solving, C, Java, C++,
-            Redux.js
-          </li>
-        </ul>
-      </section>
-
-      <!-- certificates -->
-      <section>
-        <h2>Certifications</h2>
-        <ul>
-          <li>
-            <strong>
-              <a
-                href="https://www.udemy.com/certificate/UC-e9d1e20e-4707-47c3-8bc2-d6115e17fa22/"
-                target="_blank"
-              >
-                Modern React with Redux (07/2023 - 09/2023)
-              </a>
-            </strong>
-          </li>
-          <li>
-            <strong>
-              <a
-                href="https://www.udemy.com/certificate/UC-0eda215c-4dba-4c1f-b774-89cd07fd499d/"
-                target="_blank"
-              >
-                The Complete Node.js Developer Course (10/2023 - 01/2024)
-              </a>
-            </strong>
-          </li>
-          <li>
-            <strong>
-              <a
-                href="https://www.udemy.com/certificate/UC-3f95626b-2972-407d-8528-339cd6c5f755/"
-                target="_blank"
-              >
-                Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games
-                (10/2021 - 01/2022)
-              </a>
-            </strong>
-          </li>
-          <li>
-            <strong>
-              <a
-                href="https://www.hackerrank.com/certificates/f9167a13fd9b"
-                target="_blank"
-              >
-                Problem Solving (Basic) (05/2023)
-              </a>
-            </strong>
-          </li>
-          <li>
-            <strong>
-              <a
-                href="https://www.hackerrank.com/certificates/de3e681355af"
-                target="_blank"
-              >
-                React (Basic) (07/2023)
-              </a>
-            </strong>
-          </li>
-        </ul>
-      </section>
-
-      <footer>
-        <ul>
-          Mail me At:
-        </ul>
-        <code>parv18788@gmail.com</code>
-      </footer>
+        <h1>Sorry, I Have Moved!</h1>
+        <h2>Redirecting you to my new website...</h2>
+        <div class="loading-bar"></div>
+        <p style="margin-bottom: 15px; margin-top: 15px;">If the redirect doesn’t happen automatically, click the button below:</p>
+        <a href="https://parv-gugnani.vercel.app/" class="button">Go to New Website</a>
     </div>
-  </body>
+</body>
 </html>
