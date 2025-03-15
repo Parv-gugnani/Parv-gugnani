@@ -1,8 +1,9 @@
 <h1 align="center">Hi 👋, I'm Parv gugnani</h1>
 <h3 align="center">Full Stack Developer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=parv-gugnani&label=Profile%20views&color=0e75b6&style=flat" alt="parv-gugnani" /> </p>
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=parv-gugnani&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter" />
+</p>
 - 🌱 I’m currently working on Full Stack apps with **Next Js, Node Js**
 
 - 👯 I’m looking to collaborate on **Full Stack Apps**
