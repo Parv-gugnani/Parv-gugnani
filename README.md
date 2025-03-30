@@ -81,7 +81,7 @@
   <a href="https://medium.com/@parv9424" target="_blank">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
   </a>
-  <a href="https://www.youtube.com/c/parv-gugnani" target="_blank">
+  <a href="https://www.youtube.com/@parv-gugnani" target="_blank">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
   </a>
   <a href="https://www.hackerrank.com/parvdev" target="_blank">
